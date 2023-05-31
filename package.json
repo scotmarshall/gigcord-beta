@@ -1,0 +1,21 @@
+{
+  "name": "gigcord-beta",
+  "version": "1.0.0",
+  "description": "Real-time chat app for local gigs.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Scot Marshall",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
