@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "deploy": "gh-pages -d public"
   },
   "author": "Scot Marshall",
   "license": "ISC",
